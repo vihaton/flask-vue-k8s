@@ -2,6 +2,7 @@ apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: vue
+  namespace: flask-vue-k8s
   labels:
     name: vue
 spec:
