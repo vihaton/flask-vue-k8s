@@ -14,5 +14,5 @@ spec:
     spec:
       containers:
       - name: vue
-        image: mjhea0/vue-kubernetes:latest
+        image: vihaton/vue-kubernetes:latest
       restartPolicy: Always
