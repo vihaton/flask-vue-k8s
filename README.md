@@ -130,13 +130,13 @@ $ kubectl apply -f ./kubernetes/minikube-ingress.yml
 Add entry to */etc/hosts* file:
 
 ```
-<MINIKUBE_IP> hello.world
+<MINIKUBE_IP> hei.mualima
 ```
 
 Try it out:
 
-1. [http://hello.world/books/ping](http://hello.world/books/ping)
-1. [http://hello.world/books](http://hello.world/books)
+1. [http://hei.mualima/books/ping](http://hei.mualima/books/ping)
+1. [http://hei.mualima/books](http://hei.mualima/books)
 
 
 #### Vue
@@ -163,4 +163,4 @@ Create the service:
 $ kubectl create -f ./kubernetes/vue-service.yml
 ```
 
-Try it out at [http://hello.world/](http://hello.world/).
+Try it out at [http://hei.mualima/](http://hei.mualima/).
